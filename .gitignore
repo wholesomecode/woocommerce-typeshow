@@ -1,4 +1,4 @@
 .DS_Store
-typeshow/resources/live/fonts/
+typeshow/resources/live/fonts/*
 !typeshow/resources/live/fonts/.htaccess
 !typeshow/resources/live/fonts/index.php
