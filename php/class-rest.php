@@ -137,7 +137,7 @@ class REST {
 		if ( $font_query->have_posts() ) {
 			foreach ( $font_query->posts as $font_post ) {
 				$product   = wc_get_product( $font_post->ID );
-				$files     = $product->get_files();
+				$files     = $product->get_downloads();
 				$font_name = '';
 				$font_file = '';
 				$is_font   = false;

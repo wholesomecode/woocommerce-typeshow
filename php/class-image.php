@@ -27,7 +27,7 @@ class Image {
 	 * @since 0.1.0
 	 */
 	public function run() {
-		// add_action( 'wp', [ $this, 'generate_image' ], 10 );
+		add_action( 'wp', [ $this, 'generate_image' ], 10 );
 	}
 
 	public function generate_image() {
@@ -40,7 +40,7 @@ class Image {
 		$process_font = false;
 
 		$product = wc_get_product( $post->ID );
-		$files   = $product->get_files();
+		$files   = $product->get_downloads();
 
 		if ( ! empty( $files ) ) {
 			foreach ( $files as $file ) {
