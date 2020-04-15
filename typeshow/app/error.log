@@ -1,0 +1,33 @@
+[15-Apr-2020 15:16:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function wp_die() in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php:57
+Stack trace:
+#0 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowRendererDefault.php(95): TypeShowFont->getFile()
+#1 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShow.php(53): TypeShowRendererDefault->render()
+#2 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/Main.php(82): TypeShow::run()
+#3 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/index.php(17): require_once('/Users/mattwats...')
+#4 {main}
+  thrown in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php on line 57
+[15-Apr-2020 15:17:07 Europe/Berlin] /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/../resources/live/
+[15-Apr-2020 15:31:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function wp_upload_dir() in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php:57
+Stack trace:
+#0 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowRendererDefault.php(95): TypeShowFont->getFile()
+#1 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShow.php(53): TypeShowRendererDefault->render()
+#2 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/Main.php(82): TypeShow::run()
+#3 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/index.php(17): require_once('/Users/mattwats...')
+#4 {main}
+  thrown in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php on line 57
+[15-Apr-2020 15:34:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function wp_upload_dir() in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php:57
+Stack trace:
+#0 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowRendererDefault.php(95): TypeShowFont->getFile()
+#1 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShow.php(53): TypeShowRendererDefault->render()
+#2 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/Main.php(82): TypeShow::run()
+#3 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/index.php(17): require_once('/Users/mattwats...')
+#4 {main}
+  thrown in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php on line 57
+[15-Apr-2020 15:43:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function wp_upload_dir() in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php:57
+Stack trace:
+#0 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowRendererDefault.php(95): TypeShowFont->getFile()
+#1 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShow.php(53): TypeShowRendererDefault->render()
+#2 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/Main.php(82): TypeShow::run()
+#3 /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/index.php(18): require_once('/Users/mattwats...')
+#4 {main}
+  thrown in /Users/mattwatson/Sites/typeshow/app/public/wp-content/plugins/woocommerce-typeshow/typeshow/app/classes/TypeShowFont.php on line 57
