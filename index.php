@@ -55,27 +55,30 @@ require_once 'vendor/cmb-field-select2/cmb-field-select2.php';
 require_once 'php/class-assets.php';
 require_once 'php/class-image.php';
 require_once 'php/class-meta.php';
+require_once 'php/class-mime.php';
 require_once 'php/class-rest.php';
 
 use wcltd\woocommerce_typeshow\Assets;
 use wcltd\woocommerce_typeshow\Image;
 use wcltd\woocommerce_typeshow\Meta;
+use wcltd\woocommerce_typeshow\Mime;
 use wcltd\woocommerce_typeshow\REST;
 
 $assets = new Assets();
 $image  = new Image();
 $meta   = new Meta();
+$mime   = new Mime();
 $rest   = new REST();
 
 $assets->run();
 $image->run();
 $meta->run();
+$mime->run();
 $rest->run();
 
 /**
  * Functions.
  */
-
 if ( ! function_exists( 'wcltd_woocommerce_typeshow' ) ) {
 	function wcltd_woocommerce_typeshow() {
 		global $post, $assets;

@@ -33,7 +33,7 @@ class Image {
 	public function generate_image() {
 		global $post;
 
-		if ( has_post_thumbnail( $post ) ) {
+		if ( ! $post || has_post_thumbnail( $post ) || 'product' !== $post->post_type ) {
 			return;
 		}
 
@@ -64,7 +64,7 @@ class Image {
 			],
 		];
 
-		$image_url = plugin_dir_url( WCLTD_WOOCOMMERCE_TYPESHOW_ROOT ) . 'typeshow/index.php';
+		$image_url = plugin_dir_url( WCLTD_WOOCOMMERCE_TYPESHOW_ROOT ) . 'typeshow/';
 		$image_url = add_query_arg(
 			[
 				's'      => $post->post_title,
@@ -84,7 +84,7 @@ class Image {
 		include_once ABSPATH . 'wp-admin/includes/image.php';
 
 		$upload_dir = wp_upload_dir();
-		$file_name  = basename( $url );
+		$file_name  = 'preview.png';
 		$file       = $upload_dir['path'] . '/' . $file_name;
 
 		$file_headers = @get_headers( $url );
